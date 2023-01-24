@@ -9,7 +9,7 @@ public class Rekening {
             return false;
         }
         try {
-            Integer.parseInt(reknr.substring(2, 4)); (3)
+            Integer.parseInt(reknr.substring(2, 4));
             var d1 = Integer.parseInt(reknr.substring(5, 9));
             var d2 = Integer.parseInt(reknr.substring(10, 14));
             var d3 = Integer.parseInt(reknr.substring(15, 17));
